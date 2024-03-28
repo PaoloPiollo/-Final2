@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+        <header>
+            <h1>Paolo's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h2>Welcome to my Portfolio</h2>
+                <p>Hello! Welcome to my website.</p>
+                <button class="more-info-btn" onclick="togglePopup()">More Info</button>
+                <div class="popup" id="popup">
+                    <div class="overlay" onclick="togglePopup()"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <h2>Hello!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, cum.</p>
+                    </div>
+                
+                </div>
+            </section>
+            <section class="featured">
+                <div class="proj1">
+                    <div class="item"></div>
+                    <h2>Project 1</h2>
+                    <p>hover over the image</p>
+                </div>
+                <div class="proj2">
+                    <h2>Project 2</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nisi sequi saepe facilis ad eos laboriosam quae veniam culpa a.</p>
+                </div>
+                <div class="proj3">
+                    <h2>Project 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nisi sequi saepe facilis ad eos laboriosam quae veniam culpa a.</p>
+                </div>
+            </section>
+        </main>
+        <footer>2024 Paolo's Website. All rights reserved.</footer>
+</body>
+</html>
